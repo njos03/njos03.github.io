@@ -1194,6 +1194,12 @@ a.scrollup:hover{
   .timeline:before {
     left: 50%;
   }
+  .timeline a {
+    color: #ED502E;
+  }
+  .timeline a:visited {
+    color: #ED502E;
+  }
   .timeline > li {
     min-height: 100px;
     margin-bottom: 100px;
@@ -1226,6 +1232,12 @@ a.scrollup:hover{
   .timeline > li {
     min-height: 150px;
   }
+  .timeline a {
+    color: #ED502E;
+  }
+  .timeline a:visited {
+    color: #ED502E;
+  }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px;
   }
@@ -1247,6 +1259,12 @@ a.scrollup:hover{
 @media (min-width: 1200px) {
   .timeline > li {
     min-height: 170px;
+  }
+  .timeline a {
+    color: #ED502E;
+  }
+  .timeline a:visited {
+    color: #ED502E;
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px;
