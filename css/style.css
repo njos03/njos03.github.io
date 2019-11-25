@@ -1183,6 +1183,13 @@ a.scrollup:hover{
   margin-bottom: 0;
 }
 
+.timeline a {
+  color: #ED502E;
+}
+.timeline a:visited {
+  color: #ED502E;
+}
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -1240,12 +1247,6 @@ a.scrollup:hover{
 @media (min-width: 1200px) {
   .timeline > li {
     min-height: 170px;
-  }
-  .timeline a {
-    color: #0077b5;
-  }
-  .timeline a:visited {
-    color: #ED502E;
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px;
