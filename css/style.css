@@ -1230,10 +1230,15 @@ a.scrollup:hover{
     text-align: left;
   }
 }
+@media (min-width: 100px) {
+  .recent-work-wrap .overlay {
+    font-size: calc(100% + 0.02vw + 0.02vh);
+  }
+}
 
 @media (min-width: 992px) {
   .recent-work-wrap .overlay {
-    font-size: calc(100% + 0.vw + 0.5vh);
+    font-size: calc(100% + 0.5vw + 0.5vh);
   }
   .timeline > li {
     min-height: 150px;
