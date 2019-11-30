@@ -706,7 +706,7 @@ ul.sidebar-gallery {
 }
 
 .recent-work-wrap .recent-work-inner h3{
-  margin: 10px 0;
+  margin: 0px 0;
 }
 
 .recent-work-wrap .recent-work-inner h3 a{
@@ -716,6 +716,7 @@ ul.sidebar-gallery {
 
 .recent-work-wrap .overlay {
   position: absolute;
+  font-weight: bold;
   top: 0;
   left: 0;
   width: 100%;
@@ -1232,7 +1233,7 @@ a.scrollup:hover{
 }
 @media (min-width: 100px) {
   .recent-work-wrap .overlay {
-    font-size: calc(100% + 0.02vw + 0.02vh);
+    font-size: calc(70% + 0.02vw + 0.02vh);
   }
 }
 
