@@ -730,7 +730,7 @@ ul.sidebar-gallery {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;  
-  padding: 30px;
+  padding: 10px;
 }
 
 .recent-work-wrap .overlay .preview {
