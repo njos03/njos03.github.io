@@ -547,8 +547,20 @@
   <script src="js/jquery.prettyPhoto.js"></script>
   <script src="js/jquery.isotope.min.js"></script>
   <script src="js/functions.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
   <script>
     wow = new WOW({}).init();
+    var $grid = $('.portfolio-items').masonry({
+  itemSelector: '.portfolio-item',
+  percentPosition: true,
+  columnWidth: '.portfolio-item'
+});
+
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});
   </script>
 
 </body>

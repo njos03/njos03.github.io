@@ -800,6 +800,12 @@ ul.sidebar-gallery {
   margin: 0;
   padding:0;
 }
+.portfolio-item img{
+  display: block;
+  max-width: 100%;
+}
+
+
 
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
@@ -1303,3 +1309,4 @@ a.scrollup:hover{
   max-width: 100%;
   height: auto;
 }
+
