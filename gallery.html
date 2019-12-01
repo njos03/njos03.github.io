@@ -586,10 +586,7 @@
   <script src="js/imagesloaded.pkgd.min.js"></script>
   <script>
     wow = new WOW({}).init();
-    function isMobile() {
-      return /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    }
-    if (!isMobile()) {
+    if ($(window).width() > 767) {
       var $grid = $('.portfolio-items').masonry({
         itemSelector: '.portfolio-item',
         percentPosition: true,
