@@ -1235,6 +1235,9 @@ a.scrollup:hover{
   .recent-work-wrap .overlay {
     font-size: calc(70% + 0.02vw + 0.02vh);
   }
+  .longname{
+    font-size: calc(70% + 0.02vw + 0.02vh);
+  }
 }
 
 @media (min-width: 992px) {
